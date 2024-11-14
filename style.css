@@ -1,0 +1,138 @@
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #dbecf8;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    /* border: none; */
+}
+
+label {
+    color: #2bbcfa;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: bold;
+    color: #4CC9FE;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    padding-top: 100px;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+#loginBtn,#registerBtn {
+    width: 30%;
+    text-align: center;
+    background-color: #4CC9FE;
+    border: 1px solid bisque;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 130px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2bbcfa;
+}
+
+::placeholder {
+    color: #4CC9FEed;
+    opacity: 1;
+    /* Firefox */
+}
+
+a {
+    color: #2892bf;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    background-color: #d5e7ef;
+}
+
+#containerTodo {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(92, 169, 241);
+    border-radius: 8px;
+    padding-bottom: 10px;
+}
+
+.enterTodo {
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+#todoInput{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+
+}
+#addBtn{
+    width: 30%;
+    text-align: center;
+    background-color: #4CC9FE;
+    border: 1px solid bisque;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+#addBtn:hover{
+    background-color: #dbecf8;
+    color: #2bbcfa;
+}
+.todoCard{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    padding: 8px;
+    background: #d5e7ef;
+    color: black;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconEdit ,.iconDel{
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+.iconEdit img,.iconDel img {
+    width: 25px;
+    cursor: pointer;
+}
+
+#backLogin:hover{
+    background-color: #2bbcfa;
+    color: white;
+}
